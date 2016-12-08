@@ -1,11 +1,4 @@
 <?php
-/*
-Plugin Name: Brendan Modal Nox
-Description: A demo plugin for testing.
-Version: 1.0
-Author: Khaled Abu Alqomboz ( eng.khaledb@gmail.com )
-Author URI: https://www.upwork.com/freelancers/~015481ec324b2f803a
-*/
 
 namespace KhaledB;
 // Disable Direct access
