@@ -73,7 +73,7 @@ if (!class_exists('BrendanModalBox')):
             <div id=\"bmb-modal\">
                 <div id=\"bmb-content-wrap\"
                      style=\"background: url('%s') no-repeat center; background-size: cover\">
-                    <span id=\"bmb-close\">x</span>
+                    <span id=\"bmb-close\"></span>
 
                     <div id=\"bmb-content\">%s</div>
                     <a href=\"%s\" id=\"bmb-modal-link\">%s</a>

@@ -1,12 +1,11 @@
-jQuery(window).bind("load", function() {
+jQuery(window).bind("load", function () {
     if (window.bmb_box_enabled === true) {
-        jQuery('#bmb-modal').show();
-        jQuery('html').css('overflow','hidden');
+        jQuery('html').css('overflow', 'hidden !important');
+        jQuery('#bmb-modal').fadeIn();
         jQuery('#bmb-close').click(function (e) {
             e.preventDefault();
-            jQuery('#bmb-modal').hide();
-            jQuery('html').css('overflow','');
-
+            jQuery('html,body').css('overflow', '');
+            jQuery('#bmb-modal').fadeOut();
         });
     }
 });
