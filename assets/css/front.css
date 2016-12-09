@@ -1,5 +1,5 @@
 #bmb-modal {
-    position: absolute;
+    position: fixed;
     z-index: 99999;
     top: 0;
     left: 0;
@@ -29,11 +29,11 @@
     #bmb-content-wrap {
         top: 10%;
     }
+
     #bmb-content {
         padding: 20px;
     }
 }
-
 
 #bmb-modal-link {
     text-decoration: none;
@@ -51,7 +51,7 @@
     height: 60px;
     line-height: 60px;
     font-size: 13pt;
-    }
+}
 
 #bmb-close {
     position: absolute;
@@ -62,4 +62,8 @@
     height: 36px;
     background: url("../imgs/close.png") no-repeat center;
     cursor: pointer;
+}
+
+.disableScroll {
+    overflow-y: hidden;
 }
