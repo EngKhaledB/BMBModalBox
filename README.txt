@@ -1,1 +1,0 @@
-Custom Modal Box Plugin
